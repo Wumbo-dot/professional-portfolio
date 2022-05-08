@@ -1,0 +1,116 @@
+:root{
+    --border: limegreen;
+}
+
+
+body{
+    background-color: lightcyan;
+}   
+
+header img{
+    flex-grow: initial;
+}
+
+.img-border{
+    border: 2px solid var(--border);
+    box-shadow: inset 0 0 10px var(--border);
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 34px;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.about p{
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pic{
+    width: 5%;
+    border: 1px solid var(--border);
+}
+
+
+header p{
+    text-align: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.nav-bullet{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-border{
+    border: 1px solid var(--border);
+}
+
+.nav-section{
+    box-shadow: inset 0 0 10px green;
+}
+
+.intro{
+    border-bottom: 3px solid var(--border);
+}
+
+div p{
+    font-size: 20px;
+}
+
+div h3{
+    text-align: center;
+    color: black;
+    padding-top: 30px;
+}
+
+.about-me{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about-me pre{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section button{
+    position: absolute;
+    color: limegreen;
+}
+
+.run-buddy{
+    width: 50%;
+}
+
+address{
+    font-size: 20px;
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.email{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
